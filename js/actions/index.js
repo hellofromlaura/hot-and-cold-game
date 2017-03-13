@@ -16,16 +16,16 @@ export const addGuess = content => ({
 });
 
 export const START_GAME = 'START_GAME';
-export const startGame = type => ({
+export const startGame = () => ({
   type: START_GAME
 });
 
 export const HOW_TO = 'HOW_TO';
-export const howTo = type => ({
+export const howTo = () => ({
   type: HOW_TO
 });
 
 export const CLOSE_HOW_TO = "CLOSE_HOW_TO";
-export const closeHowTo = type => ({
+export const closeHowTo = () => ({
   type: CLOSE_HOW_TO
 });
